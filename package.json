@@ -1,0 +1,31 @@
+{
+  "name": "sololita-journey-web-app",
+  "version": "1.0.0",
+  "description": "Sololita Journey Web App",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
+    "autoprefixer": "^10.4.2",
+    "axios": "^1.1.3",
+    "chart.js": "^4.2.1",
+    "feather-icons": "^4.29.0",
+    "notiwind": "^1.2.6",
+    "pinia": "^2.0.10",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.18",
+    "vue": "^3.2.25",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.0.12",
+    "vue3-google-map": "^0.15.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "vite": "^2.7.2"
+  },
+  "author": "Purity"
+}
