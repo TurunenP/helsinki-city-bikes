@@ -231,11 +231,14 @@
          :zoom="12"
        >
        <Marker :options="{ 
+        
         position: 
            {
              lat: journeys.departure_station[0].y,
              lng: journeys.departure_station[0].x,
            },
+
+           icon : 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
            
             title: journeys.departure_station[0].Nimi
             

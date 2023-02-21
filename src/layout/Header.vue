@@ -3,18 +3,25 @@
 		<div class="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
 			<h1 class="text-3xl font-bold tracking-tight text-gray-900">
 				<!-- title slot -->
-				<slot name="title">Helsinki City Bikes</slot>
+				<slot name="title">
+
+					<img class="inline-block text-green-500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bicycle-icon.svg/2459px-Bicycle-icon.svg.png" height="30" width="40"/>
+					
+					Helsinki City Bikes</slot>
 			</h1>
 
 			<ul
-				class="flex flex-wrap text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
+				class="flex flex-wrap text-sm font-medium text-center text-gray-500  dark:text-gray-400">
 				<li class="mr-2">
 					<router-link :to="{ name: 'Home' }"
 					  :class="{ active: isActive, 'text-blue-600  bg-gray-100': hasError }"
-						class="inline-block p-4  rounded-t-lg active dark:bg-gray-800 dark:text-blue-500">All
+						class="inline-block p-4  rounded-t-lg active dark:bg-gray-800 dark:text-blue-500">
 						<!-- pass a prop -->
-						
-						Journeys
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline-block">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 3.75H6A2.25 2.25 0 003.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0120.25 6v1.5m0 9V18A2.25 2.25 0 0118 20.25h-1.5m-9 0H6A2.25 2.25 0 013.75 18v-1.5M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+
+All	Journeys
 
 					</router-link>
 				</li>
