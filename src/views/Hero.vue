@@ -2,7 +2,7 @@
     <section class="p-4 relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
         <div class="absolute inset-0">
             <img class="object-cover w-full h-full md:object-left md:scale-150 md:origin-top-left"
-                src="assets/bike_ride.jpg" alt="" />
+                src="@/assets/bike_ride.jpg" alt="" />
         </div>
 
         <div class="absolute inset-0 hidden bg-gradient-to-r md:block from-black to-transparent"></div>
