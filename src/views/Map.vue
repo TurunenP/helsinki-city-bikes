@@ -27,7 +27,7 @@
   
   <script>
   import { defineComponent,computed } from 'vue'
-  import { GoogleMap, Marker } from 'vue3-google-map'
+  import { GoogleMap, Marker ,Polyline } from 'vue3-google-map'
   import { useRoute, useRouter } from "vue-router";
   import store from "@/stores/index.js";
 

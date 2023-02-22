@@ -279,6 +279,27 @@
             }"
           />
 
+          <Polyline
+
+
+          :path="[
+            {
+              lat: journeys.departure_station[0].y,
+              lng: journeys.departure_station[0].x,
+            },
+            {
+              lat: journeys.return_station[0].y,
+              lng: journeys.return_station[0].x,
+            },
+          ]"
+
+          :options="{
+            strokeColor: '#0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2,
+          }"
+        />
+
        
        
        </GoogleMap>
