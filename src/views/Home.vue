@@ -98,9 +98,7 @@
 										<tr v-else v-for="journey in journeys.results" :key="journey.id">
 											<td class="px-6 py-4 whitespace-nowrap">
 												<div class="flex items">
-													<div class="flex-shrink-0 h-10 w-10">
-														<!-- <img class="h-10 w-10 rounded-full" :src="journey.image" alt=""> -->
-													</div>
+													
 													<div class="ml-4">
 														<div class="text-sm font-medium text-gray-900">
 															{{ journey.departure_station_name }}
@@ -114,9 +112,7 @@
 											</td>
 											<td class="px-6 py-4 whitespace-nowrap">
 												<div class="flex items">
-													<div class="flex-shrink-0 h-10 w-10">
-														<!-- <img class="h-10 w-10 rounded-full" :src="journey.image" alt=""> -->
-													</div>
+													
 													<div class="ml-4">
 														<div class="text-sm font-medium text-gray-900">
 															{{ journey.return_station_name }}
@@ -138,7 +134,7 @@
 											<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
 												{{ formatTime(journey.duration_in_sec) }}
 											</td>
-											<td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+											<td class="px-6 py-4 whitespace-nowrap  text-sm font-medium">
 												<span>
 													
 													<router-link 

@@ -54,6 +54,10 @@
 												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
 												FID
 											</th>
+											<th scope="col"
+												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												Name
+											</th>
 											
 											<th scope="col"
 												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -61,7 +65,11 @@
 											</th>
 											<th scope="col"
 												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-												FID
+												Stad
+											</th>
+											<th scope="col"
+												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												operator
 											</th>
 											<th scope="col"
 												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -69,20 +77,10 @@
 											</th>
 											<th scope="col"
 												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-												Kaupunki
+												Action
 											</th>
-											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-												Name
-											</th>
-											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-												Namn
-											</th>
-											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-												Nimi
-											</th>
+											
+											
 										</tr>
 									</thead>
 									<tbody class="bg-white divide-y divide-gray-200">
@@ -119,66 +117,54 @@
 										</tr>
 										<tr v-else  v-for="station in stations.results" :key="station.id">
 											<td class="px-6 py-4 whitespace-nowrap">
-												<div class="flex items">
-													<div class="flex-shrink-0 h-10 w-10">
-														
-													</div>
-													<div class="ml-4">
+											
 														<div class="text-sm font-medium text-gray-900">
 															{{ station.FID }}
 														</div>
-														<div class="text-sm text-gray-500">
-															
-														</div>
-													</div>
-
-												</div>
+												
 											</td>
 											<td class="px-6 py-4 whitespace-nowrap">
-												<div class="flex items">
-													<div class="flex-shrink-0 h-10 w-10">
-														
-													</div>
-													<div class="ml-4">
+											
+														<div class="text-sm font-medium text-gray-900">
+															{{ station.Name }}
+														</div>
+												
+											</td>
+											<td class="px-6 py-4 whitespace-nowrap">
+											
 														<div class="text-sm font-medium text-gray-900">
 															{{ station.Adress }}
 														</div>
-														<div class="text-sm text-gray-500">
-															
-														</div>
-													</div>
-
-												</div>
+													
 											</td>
 											<td class="px-6 py-4 whitespace-nowrap">
-												<div class="flex items">
-													<div class="flex-shrink-0 h-10 w-10">
+												
 													
-													</div>
-													<div class="ml-4">
 														<div class="text-sm font-medium text-gray-900">
-															{{ station.FID }}
+															{{ station.Stad }}
 														</div>
-														<div class="text-sm text-gray-500">
-															<!-- {{ formatDateandTime(journey.return_date) }} -->
-														</div>
-													</div>
+													
 
-												</div>
+												
 											</td>
 											<td class="px-6 py-4 whitespace-nowrap">
 												<div class="text-sm text-gray-900">
-													<!-- {{formatDistance(journey.covered_distance_meters)}} -->
+													{{ station.Operaattor }}
 												</div>
 
 											</td>
 
 											<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-												<!-- {{ formatTime(journey.duration_in_sec) }} -->
+												<div class="text-sm text-gray-900">
+													{{ station.Kapasiteet }}
+												</div>
 											</td>
-											<td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-												<a href="#" class="text-indigo-600 hover:text-indigo-900">View
+											<td class="px-6 py-4 whitespace-nowrap  text-sm font-medium">
+												
+													<div class="text-sm text-gray-900">
+														<a href="#" class="text-indigo-600 hover:text-indigo-900">View
 													Station</a>
+												</div>
 											</td>
 										</tr>
 									</tbody>

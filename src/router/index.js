@@ -3,12 +3,19 @@ import Home from '@/views/Home.vue'
 import Stations from '@/views/Stations.vue'
 import Map from '@/views/Map.vue'
 import journey from '@/views/journey.vue'
+import Hero from '@/views/Hero.vue'
 
 const routes = [
 	{
 		name: 'Home',
-		path: '/',
+		path: '/journey',
 		component: Home
+		
+	},
+	{
+		name: 'Hero',
+		path: '/',
+		component: Hero
 		
 	},
 	{
