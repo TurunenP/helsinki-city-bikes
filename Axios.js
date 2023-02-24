@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 const ApiClient = axios.create({
-    baseURL: 'https://helsinki-city-bikes-api-production.up.railway.app/api/v1'
+    baseURL: 'https://164.90.211.131/api/v1'
 });
 
 
