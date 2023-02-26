@@ -86,7 +86,7 @@
 									<tbody class="bg-white divide-y divide-gray-200">
 										<!-- check if loading -->
 										<tr v-if="loading">
-											<td colspan="5" class="text-center py-10">
+											<td colspan="7" class="text-center py-10">
 												<span class="
 												
 												justify-center
@@ -162,8 +162,11 @@
 											<td class="px-6 py-4 whitespace-nowrap  text-sm font-medium">
 												
 													<div class="text-sm text-gray-900">
-														<a href="#" class="text-indigo-600 hover:text-indigo-900">View
-													Station</a>
+														<router-link 
+														:to="{ name: 'station', params: { id: station._id } }"
+														class="text-indigo-600 hover:text-indigo-900">
+														
+														View Station</router-link>
 												</div>
 											</td>
 										</tr>

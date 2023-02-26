@@ -4,6 +4,7 @@ import Stations from '@/views/Stations.vue'
 import Map from '@/views/Map.vue'
 import journey from '@/views/journey.vue'
 import Hero from '@/views/Hero.vue'
+import singleStation from '@/views/singleStation.vue'
 
 const routes = [
 	{
@@ -22,6 +23,11 @@ const routes = [
 		name: 'journey',
 		path: '/singlejourney/:id',
 		component: journey
+	},
+	{
+		name: 'station',
+		path: '/singlestation/:id',
+		component: singleStation
 	},
 	
 	{

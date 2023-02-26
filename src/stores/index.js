@@ -8,10 +8,7 @@ import { createStore } from "vuex";
 
 export default createStore({
 	state: {
-		dept_lat: '',
-		dept_long: '',
-		arr_lat: '',
-		arr_long: '',
+		singlestation: [],
 		journey: [],
 		singlejourney: [],
 		station: [],
@@ -38,6 +35,10 @@ export default createStore({
 			state.arr_long = singlejourney.arrival_station;
 
 			console.log(state.arr_long)
+		}
+		,
+		setSingleStation(state, singlestation) {
+			state.singlestation = singlestation;
 		}
 
 
@@ -102,6 +103,15 @@ export default createStore({
 			} catch (error) {
 				console.log(error);
 			}
+		},
+		async  getSingleStation({ commit, state }, id) {
+			try {
+				const response = await ApiClient.get(`/stations/${id}`);
+				commit('setSingleStation', response.data);
+			}
+			catch (error) {
+				console.log(error);
+			}
 		}
 
 
@@ -115,6 +125,7 @@ export default createStore({
 		
 		loading: state => state.loading,
 		station: state => state.station,
+		singlestation: state => state.singlestation,
 
 	}
 });

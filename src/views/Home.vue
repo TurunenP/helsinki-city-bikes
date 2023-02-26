@@ -75,16 +75,16 @@
 									<tbody class="bg-white divide-y divide-gray-200">
 										<!-- check if loading -->
 										<tr v-if="loading">
-											<td colspan="5" class="text-center py-10">
+											<td colspan="5" class="text-center mt-5">
 												<span class="
-													
+													mt-5
 													justify-center
 													items-center
 													flex
 													overflow-hidden
 
 													">
-													<svg class=" animate-spin -ml-1 mr-3 h-8 w-8 text-gray-500"
+													<svg class=" animate-spin -ml-1 mr-3  h-12 w-12 text-blue-500"
 														xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
 														<circle class="opacity-25" cx="12" cy="12" r="10"
 															stroke="currentColor" stroke-width="4"></circle>
