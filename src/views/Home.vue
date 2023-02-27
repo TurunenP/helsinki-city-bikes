@@ -51,23 +51,23 @@
 									<thead class="bg-gray-50">
 										<tr>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs font-bold  text-gray-900 uppercase tracking-wider">
 												Departure Station Name
 											</th>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs font-bold  text-gray-900 uppercase tracking-wider">
 												return station name
 											</th>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs font-bold  text-gray-900 uppercase tracking-wider">
 												Distance
 											</th>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs font-bold  text-gray-900 uppercase tracking-wider">
 												Duration (minutes)
 											</th>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs font-bold  text-gray-900 uppercase tracking-wider">
 												Actions
 											</th>
 										</tr>
@@ -139,7 +139,7 @@
 													
 													<router-link 
 														:to="{ name: 'journey', params: { id: journey._id } }"
-														class="text-indigo-600 hover:text-indigo-900">
+														class="text-indigo-600 btn hover:text-indigo-900">
 														
 														View</router-link>
 													

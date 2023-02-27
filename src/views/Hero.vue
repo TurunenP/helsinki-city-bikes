@@ -53,13 +53,13 @@ Helsinki City Bikes</slot>
                         <li>
                             <a href="#" title=""
                                 class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
-                                Map </a>
+                                How-to guide </a>
                         </li>
 
                         <li>
                             <a href="#" title=""
                                 class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
-                                Anaytics </a>
+                                 </a>
                         </li>
 
                         
@@ -67,7 +67,7 @@ Helsinki City Bikes</slot>
                 </div>
 
                 <div>
-                    <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">Help</p>
+                    <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">Community forum</p>
 
                     <ul class="mt-6 space-y-4">
                         <li>

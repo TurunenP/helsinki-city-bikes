@@ -51,32 +51,32 @@
 									<thead class="bg-gray-50">
 										<tr>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs  text-gray-900 font-bold  uppercase tracking-wider">
 												FID
 											</th>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs  text-gray-900 font-bold  uppercase tracking-wider">
 												Name
 											</th>
 											
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs  text-gray-900 font-bold  uppercase tracking-wider">
 												Adress
 											</th>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs  text-gray-900 font-bold  uppercase tracking-wider">
 												Stad
 											</th>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs  text-gray-900 font-bold  uppercase tracking-wider">
 												operator
 											</th>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs  text-gray-900 font-bold  uppercase tracking-wider">
 												Kapasiteet
 											</th>
 											<th scope="col"
-												class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+												class="px-6 py-3 text-left text-2xs  text-gray-900 font-bold uppercase tracking-wider">
 												Action
 											</th>
 											
